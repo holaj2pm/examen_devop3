@@ -1,0 +1,103 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b8494;
+    position: static;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* fondo color */
+  li a:hover {
+    background-color:aqua;
+  }
+  .efecto {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(imagenes/descarga.jpg);
+    background-size: 80%;
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    border-radius: 10px;
+
+}
+  .efecto1 {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(imagenes/LOGO\ ING\ INFORMATICA\ UNSXX.png);
+    background-size: 80%;
+    width:500px;
+    height: 400px;
+    background-position: center;
+    border-radius: 10px;
+}
+
+  .imagen{
+    background-repeat: no-repeat;
+    background-image: url(imagenes/descarga.jpg);  
+    background-size: 50%;
+    width: 400px;
+    height: 200px;
+    background-position: center;
+}
+.efecto:hover{
+    background-color:aqua;
+    border-radius: 10px;
+}
+.efecto1:hover{
+  position: relative;
+  background-color:aqua;
+    border-radius: 10px;
+
+}
+
+.contenedor{
+  position: relative;
+  
+  text-align: center;
+  color: transparent;
+}
+.contenedor:hover{
+  color:black;
+  text-align: center;
+}
+
+.centrado{
+  position: absolute;
+  background-position: center;
+ 
+}
+
+.locacion{
+    position:absolute;
+    left:35%;
+}
+.locacion2{
+  position:absolute;
+  left:35%;
+  top:90%;
+
+}
+h2{
+  background-color: orange;
+}
+
+  body {
+    font: normal 18px/1.5 "Helvetica Neue", sans-serif;
+  }
+  
+  
